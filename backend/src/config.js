@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "ZOISTUFF";
+const namePrefix = "ZOISTUFFF";
 const description = "zoi's collection";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -48,13 +48,13 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'ZOISTUFF';
-const CONTRACT_SYMBOL = 'ZS';
+const CONTRACT_NAME = 'ZOISTUFFF';
+const CONTRACT_SYMBOL = 'ZSF';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x55fbCCBa8Dc41B5251453ffaD9625D35f9a1b550';
 const TREASURY_ADDRESS = '0x55fbCCBa8Dc41B5251453ffaD9625D35f9a1b550';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.005; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0.01; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
