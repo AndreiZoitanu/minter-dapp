@@ -76,6 +76,7 @@ const deployContract = async () => {
 
   try {
     const url = `https://api.nftport.xyz/v0/contracts/collections`;
+    console.log(MINT_PRICE)
     const contract = {
       chain: CHAIN.toLowerCase(),
       name: CONTRACT_NAME,

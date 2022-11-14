@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "ZOISTUFFF";
+const namePrefix = "ZOISTUFFFF";
 const description = "zoi's collection";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -48,8 +48,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'ZOISTUFFF';
-const CONTRACT_SYMBOL = 'ZSF';
+const CONTRACT_NAME = 'ZOISTUFFFF';
+const CONTRACT_SYMBOL = 'ZSFF';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x55fbCCBa8Dc41B5251453ffaD9625D35f9a1b550';
 const TREASURY_ADDRESS = '0x55fbCCBa8Dc41B5251453ffaD9625D35f9a1b550';
@@ -58,7 +58,7 @@ const MINT_PRICE = 0.01; // Minting price per NFT. Goerli = ETH, Ethereum = ETH,
 const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-11-14T11:30:48+02:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-11-18T11:30:48+02:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-11-12T11:30:48+02:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
