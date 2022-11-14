@@ -24,6 +24,7 @@ function fetchNoRetry(url, options) {
           }
         })
         .catch((error) => {
+          console.log(AUTH)
           console.error(`CATCH ERROR: ${error}`);
         });
   });

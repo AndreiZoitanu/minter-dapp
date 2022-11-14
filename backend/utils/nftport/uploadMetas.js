@@ -2,6 +2,7 @@ const FormData = require("form-data");
 const path = require("path");
 const basePath = process.cwd();
 const fs = require("graceful-fs");
+const { AUTH } = require("../../src/config");
 
 const { fetchNoRetry } = require(`${basePath}/utils/functions/fetchWithRetry.js`);
 
@@ -54,6 +55,7 @@ async function main() {
     console.log(`Metadata uploaded!`);
   } catch (err) {
     console.log(`Catch: ${err}`);
+    console.log(AUTH)
   }
 
   // Upload Generic Metadata if GENERIC is true
@@ -76,7 +78,7 @@ async function main() {
       "external_url": metaData?.external_url,
       "custom_fields": {
         "date": metaData.date,
-        "compiler": "HashLips Art Engine - codeSTACKr Modified"
+        "compiler": "Zoi's stolen code"
       }
     }
 
